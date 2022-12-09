@@ -2,8 +2,8 @@
 //  UIExtensions.swift
 //  SystemHealthAlerts
 //
-//  Created by Santanu Karar on 07/09/20.
-//  Copyright © 2020 Santanu Karar. All rights reserved.
+//  Created by Devsena on 07/09/20.
+//  Copyright © 2020 Devsena. All rights reserved.
 //
 
 import Foundation

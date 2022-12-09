@@ -2,8 +2,8 @@
 //  WelcomeViewController.swift
 //  SystemHealthAlerts
 //
-//  Created by Santanu Karar on 04/11/22.
-//  Copyright © 2022 Santanu Karar. All rights reserved.
+//  Created by Devsena on 04/11/22.
+//  Copyright © 2022 Devsena. All rights reserved.
 //
 
 import UIKit

@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  SystemHealthAlerts
 //
-//  Created by Santanu Karar on 31/08/20.
-//  Copyright © 2020 Santanu Karar. All rights reserved.
+//  Created by Devsena on 31/08/20.
+//  Copyright © 2020 Devsena. All rights reserved.
 //
 
 import UIKit
