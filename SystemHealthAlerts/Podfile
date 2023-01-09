@@ -1,4 +1,0 @@
-target 'SystemHealthAlerts' do
-	use_frameworks!
-
-end
