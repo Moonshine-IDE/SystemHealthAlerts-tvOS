@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4ACF650F29151DCC0080AC40 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF650E29151DCC0080AC40 /* WelcomeViewController.swift */; };
-		5B89F5011E2EA291D8961F93 /* Pods_SystemHealthAlerts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F35ABF460CAFB248504AB423 /* Pods_SystemHealthAlerts.framework */; };
 		B00411D625013CB10058C5C8 /* AlertSubListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00411D525013CB10058C5C8 /* AlertSubListTableViewCell.swift */; };
 		B03CD29124FCC68700C451AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03CD29024FCC68700C451AA /* AppDelegate.swift */; };
 		B03CD29524FCC68700C451AA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03CD29424FCC68700C451AA /* SettingsViewController.swift */; };
@@ -31,7 +30,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3B2F17BDF847BF4B95C50B7B /* Pods-SystemHealthAlerts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SystemHealthAlerts.debug.xcconfig"; path = "Target Support Files/Pods-SystemHealthAlerts/Pods-SystemHealthAlerts.debug.xcconfig"; sourceTree = "<group>"; };
 		4ACF650E29151DCC0080AC40 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		B00411D525013CB10058C5C8 /* AlertSubListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertSubListTableViewCell.swift; sourceTree = "<group>"; };
 		B03CD28D24FCC68700C451AA /* SystemHealthAlerts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SystemHealthAlerts.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,8 +52,6 @@
 		B0E702E9250261BC00E39305 /* ErrorDisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorDisplayViewController.swift; sourceTree = "<group>"; };
 		B0F06B192500EFA200BC8146 /* AlertListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertListViewController.swift; sourceTree = "<group>"; };
 		B0F06B1F2500F1C800BC8146 /* AlertListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertListTableViewCell.swift; sourceTree = "<group>"; };
-		DA1AFECF8987B14CE37385E1 /* Pods-SystemHealthAlerts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SystemHealthAlerts.release.xcconfig"; path = "Target Support Files/Pods-SystemHealthAlerts/Pods-SystemHealthAlerts.release.xcconfig"; sourceTree = "<group>"; };
-		F35ABF460CAFB248504AB423 /* Pods_SystemHealthAlerts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SystemHealthAlerts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +59,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B89F5011E2EA291D8961F93 /* Pods_SystemHealthAlerts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,7 +68,6 @@
 		1C3C6FDB7A150D176FD94427 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F35ABF460CAFB248504AB423 /* Pods_SystemHealthAlerts.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -83,7 +77,6 @@
 			children = (
 				B03CD28F24FCC68700C451AA /* SystemHealthAlerts */,
 				B03CD28E24FCC68700C451AA /* Products */,
-				E433DD9F00CD7F8B578950C0 /* Pods */,
 				1C3C6FDB7A150D176FD94427 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -180,15 +173,6 @@
 			path = ItemRenderers;
 			sourceTree = "<group>";
 		};
-		E433DD9F00CD7F8B578950C0 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3B2F17BDF847BF4B95C50B7B /* Pods-SystemHealthAlerts.debug.xcconfig */,
-				DA1AFECF8987B14CE37385E1 /* Pods-SystemHealthAlerts.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -196,7 +180,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B03CD2A124FCC68900C451AA /* Build configuration list for PBXNativeTarget "SystemHealthAlerts" */;
 			buildPhases = (
-				6711321D65EB54DD8DB08D97 /* [CP] Check Pods Manifest.lock */,
 				B03CD28924FCC68700C451AA /* Sources */,
 				B03CD28A24FCC68700C451AA /* Frameworks */,
 				B03CD28B24FCC68700C451AA /* Resources */,
@@ -255,31 +238,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		6711321D65EB54DD8DB08D97 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SystemHealthAlerts-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B03CD28924FCC68700C451AA /* Sources */ = {
@@ -446,7 +404,6 @@
 		};
 		B03CD2A224FCC68900C451AA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B2F17BDF847BF4B95C50B7B /* Pods-SystemHealthAlerts.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -462,12 +419,12 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.3;
 			};
 			name = Debug;
 		};
 		B03CD2A324FCC68900C451AA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA1AFECF8987B14CE37385E1 /* Pods-SystemHealthAlerts.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -483,6 +440,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.3;
 			};
 			name = Release;
 		};
